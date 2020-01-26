@@ -5,6 +5,7 @@ Created on Sat Jan 25 18:56:17 2020
 D:\Tools\Python_tools\Python_examples\BPI_M64\bananapi_benchmark.py
 
 @author: Wisdom zhang
+@test: Ben Chen
 
 Shenzhen, China
 """
