@@ -4,7 +4,7 @@ Created on Sat Jan 25 18:56:17 2020
 
 D:\Tools\Python_tools\Python_examples\BPI_M64\bananapi_benchmark.py
 
-@author: coworker
+Shenzhen, China
 """
 
 # The benchmark test is by Wisdom Zhang, Jan-25-2020, 
