@@ -6,6 +6,8 @@
 
  run the python on the spyder tools on Windows
 
+ The code is in bannapi_benchmark.py, it is very short code 
+
  Get the following result of benchmark
 
 # it is based on Banana Pi 4 of Ben Chen
