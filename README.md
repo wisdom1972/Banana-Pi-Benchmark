@@ -74,3 +74,5 @@ runfile('D:/Tools/Python_tools/Python_examples/BPI_M64/bananapi_benchmark.py', w
 The number product result is 456569 digits long.
 Took 2.5871317386627197 seconds to calculate.
 calculate the sigma_i=32000000 the time took is 0:00:03.049287
+
+# download it from github to ubuntu
