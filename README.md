@@ -9,6 +9,8 @@
  The code is in bannapi_benchmark.py, it is very short code 
 
  Get the following result of benchmark
+ Jan-27-2020: add the number product benchmark
+
 
 # it is based on Banana Pi 4 of Ben Chen
 # i=1000000, the run time is  0:00:01.477372 
@@ -56,3 +58,19 @@
 # i=4000000, the run time is  0:00:00.493969
 # i=8000000, the run time is  0:00:01.018509
 # i=32000000, the run time is  0:00:03.999741
+
+Jan-27-2020: add the number product benchmark
+
+From bananapi BPI M64
+
+>>> %Run bananapi_benchmark2.py
+The number product result is 456569 digits long.
+Took 18.57682967185974 seconds to calculate.
+calculate the sigma_i=32000000 the time took is 0:00:10.023055
+
+from Wisdom Lenovo E480
+
+runfile('D:/Tools/Python_tools/Python_examples/BPI_M64/bananapi_benchmark.py', wdir='D:/Tools/Python_tools/Python_examples/BPI_M64')
+The number product result is 456569 digits long.
+Took 2.5871317386627197 seconds to calculate.
+calculate the sigma_i=32000000 the time took is 0:00:03.049287
