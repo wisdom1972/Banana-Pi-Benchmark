@@ -6,31 +6,31 @@
 
  run the python on the spyder tools on Windows
 
- The code is in bannapi_benchmark.py, it is very short code 
+ The code is in bannapi_benchmark.py, it is very short code
 
  Get the following result of benchmark
  Jan-27-2020: add the number product benchmark
 
 
 # it is based on Banana Pi 4 of Ben Chen
-# i=1000000, the run time is  0:00:01.477372 
-# i=2000000, the run time is  0:00:02.821595 
-# i=4000000, the run time is  0:00:05.771449 
-# i=8000000, the run time is  0:00:11.046958 
-# it is based on Raspberry Pi 3 
-# 
-# i=1000000, the run time is  0:00:05.516682 
-# i=2000000, the run time is  0:00:13.147322 
-# i=4000000, the run time is  0:00:23.348977 
-# i=8000000, the run time is  0:00:48.460275 
-  
-# it is based on Lenovo T480 Notebook, Intel i5 
-# 
-# i=1000000, the run time is  0:00:00.217468 
-# i=2000000, the run time is  0:00:00.394966 
-# i=4000000, the run time is  0:00:00.872085 
-# i=8000000, the run time is  0:00:01.323677 
-# i=32000000, the run time is  0:00:05.210840 
+# i=1000000, the run time is  0:00:01.477372
+# i=2000000, the run time is  0:00:02.821595
+# i=4000000, the run time is  0:00:05.771449
+# i=8000000, the run time is  0:00:11.046958
+# it is based on Raspberry Pi 3
+#
+# i=1000000, the run time is  0:00:05.516682
+# i=2000000, the run time is  0:00:13.147322
+# i=4000000, the run time is  0:00:23.348977
+# i=8000000, the run time is  0:00:48.460275
+
+# it is based on Lenovo T480 Notebook, Intel i5
+#
+# i=1000000, the run time is  0:00:00.217468
+# i=2000000, the run time is  0:00:00.394966
+# i=4000000, the run time is  0:00:00.872085
+# i=8000000, the run time is  0:00:01.323677
+# i=32000000, the run time is  0:00:05.210840
 ======================================Wisdom data is as follows===================
 
 # it is based on Banana Pi M64
@@ -48,7 +48,7 @@
 # i=8000000, the run time is  0:00:02.837145
 # i=32000000, the run time is  0:00:10.392236
 
-# 2nd question,  sensehat expander board can not use in BPI, 
+# 2nd question,  sensehat expander board can not use in BPI,
 # 3rd question, I can not run the sudo rasp-config, I am not sure if the BPI SPI interface can not work, so, it lead to SenseHat board issue
 
 # it is based on Lenovo E480 Notebook, Intel i5
@@ -74,5 +74,19 @@ runfile('D:/Tools/Python_tools/Python_examples/BPI_M64/bananapi_benchmark.py', w
 The number product result is 456569 digits long.
 Took 2.5871317386627197 seconds to calculate.
 calculate the sigma_i=32000000 the time took is 0:00:03.049287
+
+from Wisdom Ubuntu16.04 LTS Lenovo E480
+
+runfile('/home/wisdom/github/Banana-Pi-Benchmark/bananapi_benchmark_2.py', wdir='/home/wisdom/github/Banana-Pi-Benchmark')
+The number product result is 456569 digits long.
+Took 2.029871702194214 seconds to calculate.
+calculate the sigma_i=32000000 the time took is 0:00:02.554465
+
+it looks like the Ubuntu have better speed for the simple ```
+
+```
+
+
+
 
 # download it from github to ubuntu
